@@ -11,6 +11,6 @@ app.get('/',function(req,res){
     res.render("index");
 });
 
-app.listen(5002,function(){
+app.listen(port,function(){
     console.log('Server started');
 });
