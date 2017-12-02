@@ -8,7 +8,7 @@ var publicPath=path.join(__dirname,"public");
 /*    res.send("Hello  ...");
 });*/
 app.get('/',function(req,res){
-    res.send(os.networkInterfaces());
+    res.send(req.ip);
 });
 
 
